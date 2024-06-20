@@ -55,8 +55,8 @@ type BeverageDecorator struct {
 	beverage Beverage
 }
 
-func (d *BeverageDecorator) Cost() float64 {
-	return d.beverage.Cost()
+func (b *BeverageDecorator) Cost() float64 {
+	return b.beverage.Cost()
 }
 
 // ConcreteDecorator 结构体
